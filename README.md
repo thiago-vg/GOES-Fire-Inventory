@@ -2,7 +2,7 @@
 
 [![Issues](https://img.shields.io/github/issues/thiago-vg/Teste_Repo)](https://github.com/thiago-vg/Teste_Repo/issues)
 [![Downloads](https://img.shields.io/github/downloads/thiago-vg/Teste_Repo/total)](https://github.com/thiago-vg/Teste_Repo/releases)
-[![Lines of Code](https://img.shields.io/tokei/lines/github/thiago-vg/Teste_Repo)](https://github.com/thiago-vg/Teste_Repo)
+![Static Badge](https://img.shields.io/badge/lines%20of%20code-13k%2B-green)
 
 This repository contains the scripts associated with the article:
 
