@@ -1,5 +1,9 @@
 # Particulate and Gas Emissions from Wildfires in the Southern Amazon (2020-2022)
 
+[![Issues](https://img.shields.io/github/issues/thiago-vg/Teste_Repo)](https://github.com/thiago-vg/Teste_Repo/issues)
+[![Downloads](https://img.shields.io/github/downloads/thiago-vg/Teste_Repo/total)](https://github.com/thiago-vg/Teste_Repo/releases)
+[![Lines of Code](https://img.shields.io/tokei/lines/github/thiago-vg/Teste_Repo)](https://github.com/thiago-vg/Teste_Repo)
+
 This repository contains the scripts associated with the article:
 
 **"Particulate and gas emissions from wildfires in the southern Amazon, from 2020 to 2022, from GOES-16 fire radiative power retrievals."**
@@ -68,3 +72,4 @@ For questions or contributions, feel free to reach out via GitHub issues or emai
 ---
 
 Let me know if you need any modifications!
+
