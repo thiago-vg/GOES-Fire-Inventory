@@ -33,19 +33,19 @@ Ensure you have **Docker** installed on your system before proceeding.
 
 2. **Run the Docker Container**:
    ```sh
-   docker run -p 8888:8888 -v $(pwd):/home/jovyan/work --rm pangeo/pangeo-notebook
+   docker run -p 8888:8888 -v $(pwd):/home/jovyan/ --rm pangeo/pangeo-notebook
    ```
    This will start a Jupyter Notebook server that can be accessed at `http://localhost:8888/`.
 
 3. **Clone this Repository**:
    ```sh
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
+   git clone https://github.com/thiago-vg/Teste_Repo.git
+   cd Teste_Repo
    ```
 
 4. **Open JupyterLab and Start Working**
    - Navigate to `http://localhost:8888/`
-   - Open the scripts within the `work` directory in JupyterLab.
+   - Open the scripts within the `jovyan` directory in JupyterLab.
 
 ## Scripts and Usage
 The repository contains the following scripts:
@@ -68,8 +68,4 @@ If you use these scripts in your research, please cite our article:
 
 ## Contact
 For questions or contributions, feel free to reach out via GitHub issues or email.
-
----
-
-Let me know if you need any modifications!
 
