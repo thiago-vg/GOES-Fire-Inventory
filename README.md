@@ -24,11 +24,6 @@ To run these scripts, you need to use the **Pangeo-notebook** Docker image:
 
 Ensure you have **Docker** installed on your system before proceeding.
 
-Some of the generated maps require the use of shapefiles, all of which are included in the "Auxiliary data" directory.
-
-- The shapefile for the **Amazon Basin** is sourced from: [![Amazon Basin](https://img.shields.io/badge/Amazon_Basin-Map-blue)](https://cartographyvectors.com/map/1255-amazon-basin)
-- The shapefiles for **roads and cities** come from the **Natural Earth** database: [![Natural Earth](https://img.shields.io/badge/Natural_Earth-Data-green)](https://www.naturalearthdata.com/)
-
 ## Installation and Setup
 
 1. **Pull the Pangeo Docker Image**:
@@ -66,6 +61,15 @@ Additional datasets used in the analysis can be accessed from their respective s
 - **GFAS:** [Global Fire Assimilation System](https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas?tab=download)
 
 Once the data is available, additional scripts are provided for further processing, analysis, and visualization.
+
+Some of the generated maps require the use of shapefiles, all of which are included in the "Auxiliary data" directory.
+
+- The shapefile for the **Amazon Basin** is sourced from: [![Amazon Basin](https://img.shields.io/badge/Amazon_Basin-Map-blue)](https://cartographyvectors.com/map/1255-amazon-basin)
+- The shapefiles for **roads and cities** come from the **Natural Earth** database: [![Natural Earth](https://img.shields.io/badge/Natural_Earth-Data-green)](https://www.naturalearthdata.com/)
+
+Additionally, the mapping of land use, available in the script **"Plot_landuse.ipynb"**, utilizes the dataset from:
+
+[![MCD12C1](https://img.shields.io/badge/NASA-Earthdata-orange?logo=nasa)](https://www.earthdata.nasa.gov/data/catalog?keyword=MCD12C1)
 
 ![Figure Placeholder](path_to_figure.png)
 
