@@ -24,6 +24,11 @@ To run these scripts, you need to use the **Pangeo-notebook** Docker image:
 
 Ensure you have **Docker** installed on your system before proceeding.
 
+Some of the generated maps require the use of shapefiles, all of which are included in the "Auxiliary data" directory.
+
+- The shapefile for the **Amazon Basin** is sourced from: [![Amazon Basin](https://img.shields.io/badge/Amazon_Basin-Map-blue)](https://cartographyvectors.com/map/1255-amazon-basin)
+- The shapefiles for **roads and cities** come from the **Natural Earth** database: [![Natural Earth](https://img.shields.io/badge/Natural_Earth-Data-green)](https://www.naturalearthdata.com/)
+
 ## Installation and Setup
 
 1. **Pull the Pangeo Docker Image**:
