@@ -71,7 +71,20 @@ Additionally, the mapping of land use, available in the script **"Plot_landuse.i
 
 [![MCD12C1](https://img.shields.io/badge/NASA-Earthdata-orange?logo=nasa)](https://www.earthdata.nasa.gov/data/catalog?keyword=MCD12C1)
 
-![Figure Placeholder](path_to_figure.png)
+
+graph TD;
+    A[Start] -->|Process| B["Get scripts process"];
+    B --> C["Region of Interest (ROI)"];
+    B --> D["FEER coefficients"];
+    B --> E["GOES-16 cloud storage"];
+    C -->|Uses| F["Use one file to calculate lat/lon for GOES-16 data matrix"];
+    D -->|Provides| F;
+    F -->|Generates| G["Generate index matrix matching lat/lon from ROI with GOES data matrix"];
+    E -->|Lists| H["List all GOES data for period of interest"];
+    H -->|Processes| I["Calculate results for all files using GOES-16 ABI FDC product"];
+    I -->|Stores| J["Save in a CSV file"];
+    J --> K[End];
+
 
 ## Citation
 If you use these scripts in your research, please cite our article:
