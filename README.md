@@ -53,15 +53,19 @@ Some of the generated maps require the use of shapefiles, all of which are inclu
    - Open the scripts within the `work` directory in JupyterLab.
 
 ## Scripts and Usage
-The provided versions of the algorithms are designed to run on the JupyterLab workspace and use an edited version of the CSV file extracted from the FEER inventory database, located in the "Auxiliary data" directory in this repository as “FEERv1.0_Ce_user”. The original file from the FEER database can be obtained from the database website: [FEER Database](https://feer.gsfc.nasa.gov/data/emissions/).
+Scripts prefixed with "Get" access GOES-16 data directly from the internet, so downloading the data is not necessary beforehand. However, if the connection is slow or the analysis needs to be repeated multiple times, it is recommended to download the data locally. A script is provided to assist with this process.
 
-Scripts prefixed with "Get" access GOES-16 data directly from the internet, eliminating the need for prior downloads. However, if the connection is slow or if the analysis needs to be repeated multiple times, it is recommended to download the data locally. For this purpose, we have included a script to facilitate the data download process. 
+Preprocessed GOES-16 data used in the article is available in the following Google Drive directory:
 
-All preprocessed data files, as well as datasets from other sources used in the article (GFED, GFAS, and FEERv1.0-G1.2), are available in the following Google Drive directory:
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-Preprocessed%20GOES--16%20Data-yellow?logo=google-drive)](https://drive.google.com/drive/folders/1W61s7nVHnFUXPmcWT-ygnxPznFd-3ama?usp=sharing)
 
-[![Google Drive](https://img.shields.io/badge/Google%20Drive-Data%20Repository-yellow?logo=google-drive)](https://drive.google.com/drive/folders/1W61s7nVHnFUXPmcWT-ygnxPznFd-3ama?usp=sharing)
+Additional datasets used in the analysis can be accessed from their respective sources:
 
-Once the data is available, additional scripts are provided to process and analyze the information, as well as to generate visualizations from the extracted results.
+- **GFED:** [Global Fire Emissions Database](https://www.globalfiredata.org/data.html)
+- **FEER:** [Fire Energetics and Emissions Research Database](https://feer.gsfc.nasa.gov/data/emissions/)
+- **GFAS:** [Global Fire Assimilation System](https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas?tab=download)
+
+Once the data is available, additional scripts are provided for further processing, analysis, and visualization.
 
 ![Figure Placeholder](path_to_figure.png)
 
