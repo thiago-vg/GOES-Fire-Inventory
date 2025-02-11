@@ -91,8 +91,9 @@ graph TD;
 ## Citation
 If you use these scripts in your research, please cite our article:
 > **[Full Citation of Your Article]**
+
 Or cite the repository:
-> [![DOI](https://zenodo.org/badge/923018589.svg)](https://doi.org/10.5281/zenodo.14849712)
+[![DOI](https://zenodo.org/badge/923018589.svg)](https://doi.org/10.5281/zenodo.14849712)
 
 ## Contact
 For questions or contributions, feel free to reach out via GitHub issues or email.
