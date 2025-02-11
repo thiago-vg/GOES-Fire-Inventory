@@ -1,8 +1,8 @@
 # Particulate and Gas Emissions from Wildfires in the Southern Amazon (2020-2022)
 
-[![Issues](https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPO)](https://github.com/YOUR_USERNAME/YOUR_REPO/issues)
-[![Downloads](https://img.shields.io/github/downloads/YOUR_USERNAME/YOUR_REPO/total)](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)
-[![Lines of Code](https://img.shields.io/tokei/lines/github/YOUR_USERNAME/YOUR_REPO)](https://github.com/YOUR_USERNAME/YOUR_REPO)
+[![Issues](https://img.shields.io/github/issues/thiago-vg/Teste_Repo)](https://github.com/thiago-vg/Teste_Repo/issues)
+[![Downloads](https://img.shields.io/github/downloads/thiago-vg/Teste_Repo/total)](https://github.com/thiago-vg/Teste_Repo/releases)
+[![Lines of Code](https://img.shields.io/tokei/lines/github/thiago-vg/Teste_Repo)](https://github.com/thiago-vg/Teste_Repo)
 
 This repository contains the scripts associated with the article:
 
@@ -39,8 +39,8 @@ Ensure you have **Docker** installed on your system before proceeding.
 
 3. **Clone this Repository**:
    ```sh
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
+   git clone https://github.com/thiago-vg/Teste_Repo.git
+   cd Teste_Repo
    ```
 
 4. **Open JupyterLab and Start Working**
