@@ -1,7 +1,7 @@
 # Particulate and Gas Emissions from Wildfires in the Southern Amazon (2020-2022)
 
-[![Issues](https://img.shields.io/github/issues/thiago-vg/Teste_Repo)](https://github.com/thiago-vg/Teste_Repo/issues)
-[![Downloads](https://img.shields.io/github/downloads/thiago-vg/Teste_Repo/total)](https://github.com/thiago-vg/Teste_Repo/releases)
+[![Issues](https://img.shields.io/github/issues/thiago-vg/GOES-Fire-Inventory)](https://github.com/thiago-vg/GOES-Fire-Inventory/issues)
+[![Downloads](https://img.shields.io/github/downloads/thiago-vg/GOES-Fire-Inventory/total)](https://github.com/thiago-vg/GOES-Fire-Inventory/releases)
 ![Static Badge](https://img.shields.io/badge/lines%20of%20code-6k%2B-green)
 
 This repository contains the scripts associated with the article:
