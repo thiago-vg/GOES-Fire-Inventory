@@ -90,7 +90,10 @@ graph TD;
 
 ## Citation
 If you use these scripts in your research, please cite our article:
-> **[Full Citation of Your Article]**
+> **Particulate and Gas Emissions from Wildfires in the Southern Amazon, from 2020 to 2022, from GOES-16 Fire Radiative Power Retrievals**
+Thiago Ferreira da Nobrega and Alexandre Lima Correia
+ACS ES&T Air Article ASAP
+DOI: 10.1021/acsestair.4c00209
 
 Or cite the repository:
 [![DOI](https://zenodo.org/badge/923018589.svg)](https://doi.org/10.5281/zenodo.14849712)
